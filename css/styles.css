@@ -257,7 +257,19 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+.modal-title {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
 
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--primery-text-colour);
+}
 .button-close {
   position: absolute;
   top: 8px;

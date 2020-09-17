@@ -513,10 +513,96 @@
           </ul>
         </div>
       </div>
+      <div class="subscribe">
+        <b class="social-title">Подпишитесь на рассылку</b>
+        <form>
+          <label>
+            <input type="email" name="mail" />
+            <span>E-mail</span>
+          </label>
+        </form>
+        <button type="submit" class="">
+          Подписаться
+          <svg width="18px" height="18px">
+            <use href="./img2/sprite.svg#icon-send"></use>
+          </svg>
+        </button>
+      </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
         <button data-modal-close class="button-close">
+          <!-- оформление форм  -->
+
+          <form class="form">
+            <label class="form-field">
+              <input
+                class="form-input"
+                type="text"
+                name="name"
+                placeholder=" "
+                autocomplete="off"
+              />
+              <span class="form-lable">Имя</span>
+              <svg class="form-icon" width="18px" height="18px">
+                <use href="./img2/sprite.svg#icon-person"></use>
+              </svg>
+            </label>
+
+            <!-- телефон -->
+
+            <label class="form-field">
+              <input
+                class="form-input"
+                type="tel"
+                name="user-phone"
+                placeholder=" "
+                autocomplete="off"
+              />
+              <span class="form-lable"> Телефон </span>
+              <svg class="form-icon" width="18px" height="18px">
+                <use href="./img2/sprite.svg#icon-phone"></use>
+              </svg>
+            </label>
+
+            <!-- почта -->
+            <label class="form-field">
+              <input
+                class="form-input"
+                type="email"
+                name="mail"
+                placeholder=" "
+                autocomplete="off"
+              />
+              <span class="form-lable"> Почта</span>
+              <svg class="form-icon" width="18px" height="18px">
+                <use href="./img2/sprite.svg#icon-email"></use>
+              </svg>
+            </label>
+
+            <!-- комментарий -->
+            <textarea
+              name="user-massage"
+              cols="30"
+              rows="10"
+              placeholder="Введите текст"
+            >
+              <span>Комментарий</span>
+            </textarea>
+
+            <!-- согласие -->
+
+            <label class="checkbox-label">
+              <input type="checkbox" class="checkbox visually-hidden" checked />
+              <span>Соглашаюсь с рассылкой и принимаю</span>
+              <a href="" class="link">Условия договора</a>
+            </label>
+
+            <!-- кнопка отправить -->
+
+            <button type="submit" class="">Отправить</button>
+          </form>
           <svg width="18px" height="18px">
             <use href="./img2/sprite.svg#icon-close-button"></use>
           </svg>
