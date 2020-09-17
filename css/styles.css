@@ -716,8 +716,13 @@ a {
   color: var(--logo-color);
   outline: nonefix;
   text-align: center;
-}
 
+  transition: fill var(--main-transition);
+}
+.button-close:focus,
+.button-close:hover {
+  fill: var(--acent);
+}
 .modal-title {
   display: block;
   margin-bottom: 12px;
@@ -763,6 +768,15 @@ a {
 
   fill: var(--primery-text-colour);
 }
+
+.form-input:focus-within {
+  border-color: var(--acent);
+}
+
+.form-input:focus-within ~ .form-icon {
+  fill: var(--acent);
+}
+
 .textarea {
   width: 448px;
   height: 120px;
