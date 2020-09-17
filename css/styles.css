@@ -707,8 +707,9 @@ a {
 
   width: 30px;
   height: 30px;
-  padding: 6px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -747,18 +748,34 @@ a {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
-  transition: border-color var(--transition);
+  transition: border-color var(--main-transition);
   outline: none;
 }
 
-.form-input + .form-icon {
+.form-icon {
   position: absolute;
   width: 18px;
   height: 18px;
   top: 50%;
   left: 12px;
   transform: translateY(-25%);
-  transition: fill var(--transition);
+  transition: fill var(--main-transition);
 
   fill: var(--primery-text-colour);
+}
+.textarea {
+  width: 448px;
+  height: 120px;
+  padding: 12px 16px;
+  resize: none;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+
+  border-radius: 4px;
+  transition: border-color var(--main-transition);
 }
