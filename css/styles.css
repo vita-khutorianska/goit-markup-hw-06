@@ -447,7 +447,7 @@ img {
   height: 44px;
   border-radius: 50%;
 
-  transition: var(--main-transition);
+  transition: background-color var(--main-transition);
 }
 .social-icon-link:hover,
 .social-icon-link:focus {
@@ -487,7 +487,7 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 
-  transition: var(--main-transition);
+  transition: border-color var(--main-transition);
 }
 
 .client-items:not(:last-child) {
@@ -496,7 +496,7 @@ img {
 .client-icon {
   fill: var(--icon-color);
 
-  transition: var(--main-transition);
+  transition: fill var(--main-transition);
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -546,7 +546,7 @@ img {
   color: var(--footer-tel-mail-colour);
   text-decoration: none;
 
-  transition: var(--main-transition);
+  transition: color var(--main-transition);
 }
 .adress-link:hover,
 .adress-link:focus {
@@ -588,7 +588,7 @@ img {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 
-  transition: var(--main-transition);
+  transition: background-color var(--main-transition);
 }
 .footer-social .social-icon-item:not(:last-child) {
   margin-right: 10px;
@@ -632,7 +632,7 @@ a {
   background-color: var(--button-bck-color);
   text-decoration: none;
 
-  transition: var(--main-transition);
+  transition: all var(--main-transition);
 }
 
 .button-filters:focus,
@@ -666,7 +666,7 @@ a {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
-  transition: var(--main-transition);
+  transition: box-shadow var(--main-transition);
 }
 .portfolio-items:nth-child(3n) {
   margin-right: 0;
