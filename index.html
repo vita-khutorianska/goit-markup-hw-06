@@ -529,86 +529,90 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
-        <button data-modal-close class="button-close">
-          <!-- оформление форм  -->
-
-          <form class="form">
-            <label class="form-field">
-              <input
-                class="form-input"
-                type="text"
-                name="name"
-                placeholder=" "
-                autocomplete="off"
-              />
-              <span class="form-lable">Имя</span>
-              <svg class="form-icon" width="18px" height="18px">
-                <use href="./img2/sprite.svg#icon-person"></use>
-              </svg>
-            </label>
-
-            <!-- телефон -->
-
-            <label class="form-field">
-              <input
-                class="form-input"
-                type="tel"
-                name="user-phone"
-                placeholder=" "
-                autocomplete="off"
-              />
-              <span class="form-lable"> Телефон </span>
-              <svg class="form-icon" width="18px" height="18px">
-                <use href="./img2/sprite.svg#icon-phone"></use>
-              </svg>
-            </label>
-
-            <!-- почта -->
-            <label class="form-field">
-              <input
-                class="form-input"
-                type="email"
-                name="mail"
-                placeholder=" "
-                autocomplete="off"
-              />
-              <span class="form-lable"> Почта</span>
-              <svg class="form-icon" width="18px" height="18px">
-                <use href="./img2/sprite.svg#icon-email"></use>
-              </svg>
-            </label>
-
-            <!-- комментарий -->
-            <textarea
-              name="user-massage"
-              cols="30"
-              rows="10"
-              placeholder="Введите текст"
-            >
-              <span>Комментарий</span>
-            </textarea>
-
-            <!-- согласие -->
-
-            <label class="checkbox-label">
-              <input type="checkbox" class="checkbox visually-hidden" checked />
-              <span>Соглашаюсь с рассылкой и принимаю</span>
-              <a href="" class="link">Условия договора</a>
-            </label>
-
-            <!-- кнопка отправить -->
-
-            <button type="submit" class="">Отправить</button>
-          </form>
-          <svg width="18px" height="18px">
-            <use href="./img2/sprite.svg#icon-close-button"></use>
-          </svg>
-        </button>
-      </div>
+    <div class="backdrop is-hidden" data-modal></div>
+    <div class="modal">
+      <button data-modal-close class="button-close">
+        <svg width="18px" height="18px">
+          <use href="./img2/sprite.svg#icon-close-button"></use>
+        </svg>
+      </button>
     </div>
+
+    <!-- оформление форм  -->
+
+    <form action="" class="form" autocomplete="off">
+      <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
+      <div class="form-field">
+        <label class="form-label" for="name">Имя</label>
+        <input
+          class="form-input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder=" "
+        />
+        <svg class="form-icon" width="18px" height="18px">
+          <use href="./img2/sprite.svg#icon-person"></use>
+        </svg>
+      </div>
+
+      <!-- телефон -->
+
+      <div class="form-field">
+        <label class="form-label" for="tel">Почта</label>
+        <input
+          class="form-input"
+          type="tel"
+          name="tel"
+          id="tel"
+          placeholder=" "
+        />
+        <svg class="form-icon" width="18px" height="18px">
+          <use href="./img2/sprite.svg#icon-phone"></use>
+        </svg>
+      </div>
+
+      <!-- почта -->
+
+      <div class="form-field">
+        <label class="form-label" for="email">Почта</label>
+        <input
+          class="form-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder=" "
+        />
+        <svg class="form-icon" width="18px" height="18px">
+          <use href="./img2/sprite.svg#icon-email"></use>
+        </svg>
+      </div>
+
+      <!-- comments -->
+
+      <div class="form-field">
+        <label class="form-label" for="comments">Комментарий</label>
+        <textarea
+          class="form-input textarea"
+          name="comments"
+          id="comments"
+          rows="7"
+          placeholder="Введите текст"
+        ></textarea>
+      </div>
+
+      <!-- согласие -->
+
+      <label class="checkbox-label">
+        <input type="checkbox" class="checkbox visually-hidden" checked />
+        <span>Соглашаюсь с рассылкой и принимаю</span>
+        <a href="" class="link">Условия договора</a>
+      </label>
+
+      <!-- кнопка отправить -->
+
+      <button type="submit" class="">Отправить</button>
+    </form>
 
     <script src="./js/modal.js"></script>
   </body>
