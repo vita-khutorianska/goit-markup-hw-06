@@ -888,6 +888,7 @@ a {
 .checkbox:checked + .check-icon {
   background-color: var(--accent);
   border-color: var(--acent);
+  background-image: url(../img2/icons/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
 }
