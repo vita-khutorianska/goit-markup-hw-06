@@ -801,6 +801,7 @@ a {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
+
   transition: border-color var(--main-transition);
   outline: none;
 }
@@ -811,6 +812,7 @@ a {
   height: 18px;
   top: 50%;
   left: 12px;
+
   transform: translateY(-25%);
   transition: fill var(--main-transition);
 
@@ -873,7 +875,7 @@ a {
   margin-right: 7px;
   border: 2px solid var(--primery-text-colour);
   border-radius: 2px;
-  transition: var(--main-transition);
+  transition: all var(--main-transition);
 }
 
 .label-text {
