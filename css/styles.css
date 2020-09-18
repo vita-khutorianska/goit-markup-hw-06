@@ -886,7 +886,7 @@ a {
   text-decoration-line: underline;
 }
 .checkbox:checked + .check-icon {
-  background-color: var(--accent);
+  background-color: var(--acent);
   border-color: var(--acent);
   background-image: url(../img2/icons/icon-check.svg);
   background-size: contain;
