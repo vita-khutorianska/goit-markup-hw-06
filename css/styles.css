@@ -847,7 +847,8 @@ a {
 /* checkbox */
 
 .checkbox-label {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin-bottom: 30px;
 }
 .label-text {
@@ -866,10 +867,13 @@ a {
   overflow: hidden;
 }
 .check-icon {
-  margin-left: 14px;
+  width: 16px;
+  height: 15px;
+
   margin-right: 8px;
-  border: var(--primery-text-colour);
+  border: 2px solid var(--primery-text-colour);
   border-radius: 2px;
+  transition: var(--main-transition);
 }
 
 .label-text {
@@ -883,7 +887,7 @@ a {
 }
 .checkbox:checked + .check-icon {
   background-color: var(--accent);
-  border-color: var(--accent);
+  border-color: var(--acent);
   background-size: contain;
   background-origin: border-box;
 }
