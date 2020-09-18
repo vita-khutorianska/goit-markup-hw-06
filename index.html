@@ -512,19 +512,28 @@
             </li>
           </ul>
         </div>
+        <!-- подпишитесь на рассылку -->
         <div class="subscribe">
           <b class="social-title">Подпишитесь на рассылку</b>
-          <form>
-            <label>
-              <input type="email" name="mail" />
-              <span>E-mail</span>
-            </label>
-            <button type="submit" class="">
+
+          <form class="subscribe-form">
+            <label for="mail"></label>
+            <!-- <div > -->
+            <input
+              class="mail-subscribe"
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="E-mail"
+            />
+
+            <button type="submit" class="btn-subscribe">
               Подписаться
-              <svg width="18px" height="18px">
+              <svg class="icon-send" width="24px" height="24px">
                 <use href="./img2/sprite.svg#icon-send"></use>
               </svg>
             </button>
+            <!-- </div> -->
           </form>
         </div>
       </div>

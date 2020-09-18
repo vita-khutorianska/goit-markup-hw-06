@@ -510,6 +510,7 @@ img {
 .footer-social {
   display: flex;
   flex-direction: column;
+  margin-right: 93px;
 }
 .social-title {
   margin-top: 0;
@@ -550,7 +551,54 @@ img {
 .social-footer-link:focus {
   background-color: var(--acent);
 }
+/* 
+подпишитесь*/
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
 
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.mail-subscribe {
+  width: 358px;
+  min-height: 50px;
+  padding-left: 16px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--footer-bg-color);
+}
+.btn-subscribe {
+  display: flex;
+  align-items: center;
+
+  padding-left: 29px;
+  padding-right: 28px;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.06em;
+
+  color: var(--white);
+  background: var(--acent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+.icon-send {
+  fill: var(--white);
+  margin-left: 10px;
+  text-align: center;
+}
 /*наши работы*/
 a {
   text-decoration: none;
