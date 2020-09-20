@@ -882,9 +882,8 @@ a {
 
 .checkbox-text::before {
   content: "";
-  display: inline-block;
-
-  vertical-align: -11%;
+  display: inline-flex;
+  text-align: center;
   width: 16px;
   height: 15px;
   margin-left: 13px;
