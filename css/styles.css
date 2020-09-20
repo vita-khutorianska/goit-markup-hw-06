@@ -884,6 +884,7 @@ a {
   content: "";
   display: inline-block;
 
+  vertical-align: -11%;
   width: 16px;
   height: 15px;
   margin-left: 13px;
